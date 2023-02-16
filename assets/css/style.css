@@ -139,7 +139,7 @@ h6 {
   line-height: 1;
   font-weight: 500;
   letter-spacing: 2px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 #header .logo a {
@@ -196,13 +196,15 @@ h6 {
 .navbar .active {
   color: black;
 }
-.navbar a:hover
-{
+
+.navbar a:hover {
   color: #FDB63A;
 }
-.navbar .active:focus{
+
+.navbar .active:focus {
   color: black;
 }
+
 /* .navbar .active:focus,
 .navbar li:hover>a {
   color: #000;
@@ -448,6 +450,7 @@ h6 {
   /* background: #47b2e4; */
   background: #FDB63A;
 }
+
 #hero .btn-sign-up {
   font-family: "Jost", sans-serif;
   font-weight: 500;
@@ -470,6 +473,7 @@ h6 {
   border: 1px solid;
   /* background: #f3bb5a; */
 }
+
 #hero .btn-sign-up:hover {
   /* background: #209dd8; */
   background: #FDB63A;
@@ -908,7 +912,7 @@ section {
   transition: all ease-in-out 0.4s;
   background: #fff;
   /* background: #cc2929; */
- 
+
 }
 
 .services .icon-box .icon {
@@ -924,7 +928,7 @@ section {
 .services .icon-box h4 {
   font-weight: 500;
   margin-bottom: 15px;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .services .icon-box h4 a {
@@ -940,10 +944,14 @@ section {
 
 .services .icon-box:hover {
   transform: translateY(-10px);
+  background: rgb(2,163,78);
+  background: linear-gradient(90deg, rgba(2,163,78,1) 0%, rgba(10,166,84,1) 0%, rgba(27,161,90,1) 0%, rgba(87,219,149,1) 0%, rgba(28,207,112,1) 100%, rgba(255,255,255,1) 100%);
+  color: #ffff;
 }
 
 .services .icon-box:hover h4 a {
-  color: #47b2e4;
+  /* color: #47b2e4; */
+  color: #ffff;
 }
 
 /*--------------------------------------------------------------
