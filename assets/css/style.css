@@ -414,8 +414,9 @@ h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: #37517e;
-  background: #02A34E;
+  /* background: #37517e; */
+  /* background: #02A34E; */
+  background: -moz-radial-gradient(center, ellipse cover, #c9de96 0%, #02a34e 100%, #398235 100%, #02a34e 100%);
 }
 
 #hero .container {
@@ -911,12 +912,18 @@ section {
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
   background: #fff;
+  /* border-radius: 50%; */
   /* background: #cc2929; */
 
 }
 
+.allround {
+  border-radius: 50%;
+}
+
 .services .icon-box .icon {
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .services .icon-box .icon i {
@@ -929,6 +936,7 @@ section {
   font-weight: 500;
   margin-bottom: 15px;
   font-size: 20px;
+  text-align: center;
 }
 
 .services .icon-box h4 a {
@@ -940,18 +948,27 @@ section {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  text-align: center;
+
 }
 
 .services .icon-box:hover {
   transform: translateY(-10px);
-  background: rgb(2,163,78);
-  background: linear-gradient(90deg, rgba(2,163,78,1) 0%, rgba(10,166,84,1) 0%, rgba(27,161,90,1) 0%, rgba(87,219,149,1) 0%, rgba(28,207,112,1) 100%, rgba(255,255,255,1) 100%);
-  color: #ffff;
+  /* background: -moz-radial-gradient(center, ellipse cover, #c9de96 0%, #02a34e 100%, #398235 100%, #02a34e 100%); */
+  /* background: -moz-radial-gradient(center, ellipse cover, #c9de96 0%, #8ab66b 44%, #398235 100%); */
+  /* background: -moz-radial-gradient(center, ellipse cover, #ffc578 0%, #fb9d23 100%); */
+  outline: #02a34e 4px solid;
+  /* color: #ffff; */
+
 }
 
 .services .icon-box:hover h4 a {
-  /* color: #47b2e4; */
-  color: #ffff;
+  color: #FDB63A;
+  /* color: #ffff; */
+}
+.services .icon-box .icon:hover i {
+  color: #FDB63A;
+  /* color: #ffff; */
 }
 
 /*--------------------------------------------------------------
@@ -1905,3 +1922,5 @@ section {
     padding-top: 4px;
   }
 }
+
+
